@@ -40,6 +40,7 @@ public class BotService {
 			StringBuilder sb = new StringBuilder();
 			list.forEach(o -> {
 				sb.append(o.getNomeProduto())
+					.append(" - ")
 					.append(o.getPreco())
 					.append("\n");
 			});
